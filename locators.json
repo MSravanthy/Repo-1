@@ -1,0 +1,32 @@
+{
+    "homepage":{
+    "customerLoginButton":"button[ng-click='customer()']",
+    "bankManagerLoginButton":"button[ng-click='manager()']",
+    "homeButton":".btn.home",
+    "homePageHeadingvalue":".mainHeading"
+ },
+
+    "addcustomerpage":{
+    "addcustomerbutton":".btn.btn-lg.tab[ng-class='btnClass1']",
+    "firstname":"input[placeholder='First Name']",
+    "lastname":"input[placeholder='Last Name']",
+    "postcode":"input[placeholder='Post Code']",
+    "addcustomersubmitbutton":"button[type='submit']"
+    
+ },
+
+     "openaccountpage":{
+     "openaccountbutton":".btn.btn-lg.tab[ng-class='btnClass2']",
+     "selectcustomerfield":"select[ng-model='custId']",
+     "selectcurrencyfield":"select[ng-model='currency']",
+     "processbutton":"button[type='submit']",
+     "customerlabel":"div.form-group:nth-child(1)>label",
+     "currencylabel":"div.form-group:nth-child(2)>label"
+ }
+
+
+ 
+
+        
+
+}
