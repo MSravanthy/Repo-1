@@ -21,7 +21,7 @@ describe('Handling Dropdowns', () => {
     cy.get("select[name='language']>option").each(($el) => {
     const text =$el.text();
     cy.log('All names', text)
-    // expect(text).to.match(/[A-Za-z]/)
+    // expect(text).to.match(/[A-Za-z0-9]/)
     });
   });
 })

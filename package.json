@@ -6,7 +6,7 @@
     "Launchcypress": "./node_modules/.bin/cypress open",
     "testcases": "./node_modules/.bin/cypress run --spec ./cypress/e2e/testcases/*.js --browser chrome",
      "merge-reports": "mochawesome-merge cypress/reports/*.json>mochawesome.json",
-    "generate-reports": "marge mochawesome.json",
+    "generate-reports": "merge mochawesome.json",
     "finaltest": "npm run testcases && npm run merge-reports && npm run generate-reports"
   },
   "author": "mikkils",
